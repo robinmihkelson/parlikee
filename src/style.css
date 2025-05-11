@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-gray-50;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-display font-semibold;
+  line-height: 1.2;
+}
+
+.section-padding {
+  @apply py-16 md:py-20 lg:py-24;
+}
+
+.container-padding {
+  @apply px-4 sm:px-6 lg:px-8;
+}
+
+.hover-float {
+  transition: transform 0.3s ease;
+}
+
+.hover-float:hover {
+  transform: translateY(-8px);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.cta-button {
+  @apply bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white font-medium py-3 px-6 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105;
+}
+
+
+.section-heading {
+  @apply relative inline-block font-display font-bold text-3xl md:text-4xl mb-12 text-gray-800;
+}
+
+.section-heading::after {
+  content: '';
+  @apply absolute -bottom-4 left-0 w-16 h-1 bg-primary-500 rounded;
+}
+
+
+.service-card {
+  @apply bg-white rounded-xl shadow-md p-6 transition-all duration-300;
+}
+
+.service-card:hover {
+  @apply shadow-xl transform -translate-y-1;
+}
+
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  }
+}
