@@ -101,7 +101,6 @@ const toggleLanguage = () => {
             <span class="uppercase font-medium">{{ currentLocale }}</span>
           </button>
           
-          <!-- CTA Button -->
           <router-link 
             to="/contact" 
             class="cta-button"
