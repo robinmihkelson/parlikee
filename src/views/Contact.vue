@@ -191,7 +191,7 @@ const sendQuote = () => {
                 </svg>
                 <div>
                   <h3 class="font-medium text-gray-900">{{ t('contact.address') }}</h3>
-                  <p class="text-gray-600">Tallinna 10<br />Tallinn, 10132<br />Estonia</p>
+                  <p class="text-gray-600">Saekoja tn 36b Tartu,<br />Tartu Tartumaa 50106</p>
                 </div>
               </div>
               
@@ -201,7 +201,7 @@ const sendQuote = () => {
                 </svg>
                 <div>
                   <h3 class="font-medium text-gray-900">{{ t('contact.phone_label') }}</h3>
-                  <p class="text-gray-600">+372 5123 4567</p>
+                  <p class="text-gray-600">+372 5612 2802</p>
                 </div>
               </div>
               
@@ -215,15 +215,7 @@ const sendQuote = () => {
                 </div>
               </div>
               
-              <div class="flex items-start">
-                <svg class="h-6 w-6 text-primary-600 mr-3 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <div>
-                  <h3 class="font-medium text-gray-900">{{ t('contact.hours') }}</h3>
-                  <p class="text-gray-600 whitespace-pre-line">{{ t('contact.hours_value') }}</p>
-                </div>
-              </div>
+              
             </div>
             
             <div class="rounded-lg overflow-hidden shadow-md">

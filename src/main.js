@@ -33,7 +33,7 @@ const router = createRouter({
 
 
 const i18n = createI18n({
-  locale: 'et', 
+  locale: 'en', 
   fallbackLocale: 'en',
   messages,
   legacy: false
