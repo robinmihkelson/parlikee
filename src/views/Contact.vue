@@ -215,14 +215,6 @@ const sendQuote = () => {
               
               
             </div>
-            
-            <div class="rounded-lg overflow-hidden shadow-md">
-              <img 
-                src="https://images.pexels.com/photos/4394553/pexels-photo-4394553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Location map" 
-                class="w-full h-52 object-cover"
-              />
-            </div>
           </div>
         </div>
       </div>
