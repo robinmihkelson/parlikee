@@ -15,9 +15,6 @@ const currentYear = new Date().getFullYear()
             <span class="text-primary-400 text-xl font-display font-bold">Pärlikee</span>
             <span class="ml-1 text-white text-xl font-display font-medium">Kirbuturg</span>
           </div>
-          <p class="text-gray-400 mb-6">
-            {{ t('about.subtitle') }}
-          </p>
         </div>
         
         <div>

@@ -10,7 +10,7 @@ export default {
     hero: {
       title: 'Professional Cleaning & Painting Services',
       subtitle: 'Make your space shine with our premium cleaning and painting services',
-      cta: 'Get a Quote'
+      cta: 'Get In Touch'
     },
     services: {
       title: 'Our Services',

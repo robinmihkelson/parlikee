@@ -298,7 +298,7 @@ onMounted(() => {
             class="text-xl font-bold text-gray-800"
             data-aos="fade-up"
           >
-            Trusted by Clients Across Estonia
+            Trusted by clients across Estonia and Finland
           </h3>
         </div>
         
@@ -321,7 +321,7 @@ onMounted(() => {
           </div>
           <div class="bg-white p-4 rounded-lg shadow-sm flex items-center justify-center h-20">
             <CheckCircleIcon class="h-6 w-6 text-primary-500 mr-2" />
-            <span class="font-medium text-gray-800">24/7 Support</span>
+            <span class="font-medium text-gray-800">Trusted</span>
           </div>
         </div>
       </div>
