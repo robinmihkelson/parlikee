@@ -8,35 +8,6 @@ import StatsCounter from '../components/StatsCounter.vue'
 import { CheckCircleIcon } from '@heroicons/vue/24/solid'
 
 const { t } = useI18n()
-
-const testimonials = ref([
-  {
-    id: 1,
-    name: 'Kadri M.',
-    role: 'Homeowner',
-    content: 'The cleaning service was exceptional. They paid attention to every detail and my apartment has never looked better!',
-    rating: 5,
-    image: 'https://i.pinimg.com/736x/2c/47/d5/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg'
-  },
-  {
-    id: 2,
-    name: 'Tanel K.',
-    role: 'Office Manager',
-    content: 'We hired them for our office deep cleaning and the results were amazing. The team was professional and efficient.',
-    rating: 5,
-    image: 'https://i.pinimg.com/736x/2c/47/d5/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg'
-  },
-  {
-    id: 3,
-    name: 'Liisa P.',
-    role: 'Apartment Owner',
-    content: 'Their painting service transformed our living room. The attention to detail and color matching was perfect.',
-    rating: 5,
-    image: 'https://i.pinimg.com/736x/2c/47/d5/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg'
-  }
-])
-
-
 const services = ref([
   { 
     id: 'cleaning', 
@@ -239,40 +210,6 @@ onMounted(() => {
           >
             {{ t('hero.cta') }}
           </router-link>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-16 md:py-24 bg-gray-50">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <h2 
-            class="section-heading mx-auto"
-            data-aos="fade-up"
-          >
-            {{ t('testimonials.title') }}
-          </h2>
-          <p 
-            class="text-gray-600 max-w-2xl mx-auto mt-8 text-lg"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            {{ t('testimonials.subtitle') }}
-          </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <TestimonialCard 
-            v-for="testimonial in testimonials" 
-            :key="testimonial.id"
-            :name="testimonial.name"
-            :role="testimonial.role"
-            :content="testimonial.content"
-            :rating="testimonial.rating"
-            :image="testimonial.image"
-            data-aos="fade-up"
-            :data-aos-delay="100 * index"
-          />
         </div>
       </div>
     </section>

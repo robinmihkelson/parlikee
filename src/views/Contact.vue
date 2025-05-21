@@ -28,7 +28,6 @@ const messageSent = ref(false)
 const quoteSent = ref(false)
 
 const sendMessage = () => {
-  // Simulate form submission
   messageSent.value = true
   setTimeout(() => {
     messageSent.value = false
@@ -43,7 +42,6 @@ const sendMessage = () => {
 }
 
 const sendQuote = () => {
-  // Simulate form submission
   quoteSent.value = true
   setTimeout(() => {
     quoteSent.value = false
@@ -211,7 +209,7 @@ const sendQuote = () => {
                 </svg>
                 <div>
                   <h3 class="font-medium text-gray-900">{{ t('contact.email_label') }}</h3>
-                  <p class="text-gray-600">info@parlikee.ee</p>
+                  <p class="text-gray-600">parlikeekirbuturg@gmail.com</p>
                 </div>
               </div>
               
